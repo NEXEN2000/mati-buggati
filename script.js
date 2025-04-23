@@ -1,0 +1,1 @@
+console.log("Mateusz ma GYATT RIZZ");
