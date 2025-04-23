@@ -31,4 +31,32 @@ h1 {
   height: auto;
   border-radius: 12px;
   box-shadow: 0 0 15px #ff00ff55;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px #ff00ffaa;
+}
+
+.kliker-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.kliker-section h2 {
+  font-size: 1.8rem;
+  color: #00ffcc;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 8px #00ffee;
+}
+
+#kliker {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#kliker:active {
+  transform: scale(0.95);
 }
