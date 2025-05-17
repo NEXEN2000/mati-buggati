@@ -60,3 +60,10 @@ h1 {
 #kliker:active {
   transform: scale(0.95);
 }
+
+h3 {
+  font-size: 1.8rem;
+  color: #fcc603;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 8px #FCA403;
+}
