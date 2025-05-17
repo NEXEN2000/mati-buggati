@@ -39,6 +39,25 @@ h1 {
   box-shadow: 0 0 25px #ff00ffaa;
 }
 
+.liga {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.liga img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff00ff55;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.liga img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px #ff00ffaa;
+}
+
 .kliker-section {
   margin-top: 4rem;
   text-align: center;
